@@ -21,6 +21,12 @@ public class Girafa extends Animal{
 		super(nume);
 		this.inaltime = inaltime;
 	}
+
+	@Override
+	public void merge() {
+		// TODO Auto-generated method stub
+		System.out.println("Girafa merge!");
+	}
 	
 
 }

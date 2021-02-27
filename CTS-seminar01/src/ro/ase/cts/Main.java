@@ -20,6 +20,11 @@ public class Main {
 		zoo.adaugareAnimal(g1);
 		zoo.adaugareAnimal(g2);
 		zoo.hranesteAnimal();
+		//diferenta dintre clasa abstracta si interfata-> o clasa abstracta trebuie implementate toate metodele abstracte, 
+		//in interfata: metodele nu sunt definite, clasa care o implementeaza trebuie sa le defineasca
+		// diferenta: in clasa abstracta putem da si o implementare a functiilor, pe cand in interfata nu
+		// o intefata are DOAR METODE ABSTRACTE, nu metode implemnetate, NU CONTINE ATRIBUTE
+		zoo.mers();
 	}
 
 }

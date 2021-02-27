@@ -29,6 +29,16 @@ public void hranesteAnimal() {
 	for(Animal a : this.animals)
 	{
 		this.z.feed(a);
+		
 	}
+	}
+
+public void mers() {
+	for(Animal a : this.animals)
+	{
+		a.merge();
+		
+	}	
 }
+
 }

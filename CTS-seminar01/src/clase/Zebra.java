@@ -7,4 +7,10 @@ public class Zebra extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void merge() {
+		// TODO Auto-generated method stub
+		System.out.println("Zebra merge!");
+	}
+
 }
