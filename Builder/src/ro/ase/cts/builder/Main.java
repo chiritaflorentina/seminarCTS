@@ -25,7 +25,10 @@ public class Main {
 	//in metods build instantiem o noua instanta
 	//apelul constructorlui se face in build
 	
-
+	Rezervare r5=new RezervareBuilderV2().setCod(5).build();
+	Rezervare r6=new RezervareBuilderV2().setCod(6).build();
+	System.out.println(r5.toString());
+	System.out.println(r6.toString());
 	}
 
 }
