@@ -9,6 +9,7 @@ public class Rezervare {
 	private boolean areScaunErgonomic;
 	private boolean areMuzicaAmbientala;
 	private String genMuzica;
+	
 	public Rezervare(int codRezervare, boolean areMancareInclusa, boolean areBauturaInclusa, boolean areScaunErgonomic,
 			boolean areMuzicaAmbientala, String genMuzica) {
 		super();
