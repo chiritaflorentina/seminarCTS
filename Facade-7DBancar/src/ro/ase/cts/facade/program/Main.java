@@ -7,7 +7,7 @@ import ro.ase.cts.facade.VerificatorPersoana;
 
 public class Main {
 public static void main(String[] args) {
-	Persoana persoana=new Persoana("Ion", "19904765432");
+	Persoana persoana=new Persoana("Ion", "199047654392");
 	//inainte de facade
 	if(persoana.getVarsta()>=18)
 	{
@@ -19,7 +19,7 @@ public static void main(String[] args) {
 	}
 		
 	//cu Facade
-	Persoana pers2=new Persoana("Maria", "199065432676");
+	Persoana pers2=new Persoana("Maria", "1990654326769");
 if(VerificatorPersoana.verificaPersoana(persoana))
 	System.out.println("S-a creat contul");
 else
